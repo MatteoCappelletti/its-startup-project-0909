@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Startup Project</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <nav>
+      <a class="brand" href="/index.html">Startup Project</a>
+    </nav>
+
+    <main>
+      <section class="hero">
+        <h1>Startup Project</h1>
+        <p>
+          A demo site to learn how to make things in JavaScript and
+          TypeScript to display real data in the browser.
+        </p>
+      </section>
+
+      <section>
+        <h2>What is this?</h2>
+        <p>
+          A sample project
+        </p>
+      </section>
+
+    </main>
+  </body>
+</html>

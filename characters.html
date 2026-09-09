@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Startup Project</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <nav>
+      <a class="brand" href="/index.html">Startup Project</a>
+      <a href="/characters.html">Characters</a>
+    </nav>
+
+    <main>
+        <h1>Personaggi</h1>
+
+        <!-- Sezione Hero -->
+        <header class="hero">
+          <h1>Personaggi di Futurama</h1>
+          <p>Esplora tutti i dipendenti e gli abitanti del XXXI secolo.</p>
+        </header>
+
+        <!-- Container dove il TS inietterà le card -->
+        <section id="characters-container">
+          <div class="loading">Caricamento dell'equipaggio in corso... 🛸</div>
+        </section>
+
+    </main>
+
+    <!-- Il punto di ingresso TypeScript di Vite -->
+    <script type="module" src="/src/characters.ts"></script>
+
+  </body>
+</html>
